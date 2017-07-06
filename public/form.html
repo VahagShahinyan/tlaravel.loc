@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <title>Title</title>
+</head>
+<body>
+
+<form  action="/pages" method="POST">
+
+    Name<input type="text" name="Name"><br><br>
+    Text<textarea name='my text'></textarea><br><br>
+    <!--<input type="hidden" name="_method" value="PUT">-->
+    <input type="hidden" >
+    
+    <input type="submit" >
+</form>
+
+</body>
+</html>
